@@ -69,7 +69,7 @@ export const PRODUCTS: Product[] = [
     description: 'Cuir mat, semelle gomme injectée. Sans lacets apparents.',
     concept: 'L\'ancrage minimal. Une marche sans bruit, une présence discrète.',
     images: [
-      '/images/chaussures_01.jpeg'
+      'https://drive.google.com/uc?export=view&id=1rioTM5kPI4ZcQw8SefS3mUI-4O01Jz0g'
     ],
     sizes: ['S', 'M', 'L']
   },

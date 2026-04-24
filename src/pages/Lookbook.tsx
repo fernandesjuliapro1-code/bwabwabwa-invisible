@@ -7,7 +7,7 @@ const LOOKBOOK_IMAGES = [
   '/images/chemise_01.jpeg',
   '/images/pantalon_04.jpeg',
   '/images/cardigan_02.jpeg',
-  '/images/chaussures_01.jpeg',
+  'https://drive.google.com/uc?export=view&id=1rioTM5kPI4ZcQw8SefS3mUI-4O01Jz0g',
   '/images/chemise_02.jpeg',
   '/images/pantalon_02.jpeg',
   '/images/chemise_03.jpeg',
