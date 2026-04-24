@@ -17,7 +17,7 @@ export const Home: React.FC = () => {
           className="absolute inset-0"
         >
           <img 
-            src="/images/baba.jpeg" 
+            src="/img/baba.jpeg" 
             alt="Hero" 
             className="w-full h-full object-cover grayscale"
             referrerPolicy="no-referrer"

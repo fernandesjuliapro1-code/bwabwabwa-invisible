@@ -20,14 +20,15 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
       // On crée une map des produits sauvegardés pour un accès rapide
       const savedMap = new Map(parsed.map(p => [p.id, p]));
       
-      // On force la mise à jour si on détecte une ancienne convention ou un changement vers Google Drive
+      // On force la mise à jour si on détecte une ancienne convention (espaces, unsplash, ou /images/)
       const merged = INITIAL_PRODUCTS.map(initial => {
         const savedProduct = savedMap.get(initial.id);
         if (savedProduct) {
           const hasOldPath = savedProduct.images.some(img => 
             img.includes(' ') || 
             img.includes('unsplash') || 
-            (initial.images[0].includes('drive.google.com') && !img.includes('drive.google.com'))
+            img.includes('/images/') ||
+            (img.includes('drive.google.com'))
           );
           if (hasOldPath) {
             return { ...savedProduct, images: initial.images };

@@ -3,16 +3,16 @@ import { motion } from 'motion/react';
 import { cn } from '../lib/utils';
 
 const LOOKBOOK_IMAGES = [
-  '/images/baba.jpeg',
-  '/images/chemise_01.jpeg',
-  '/images/pantalon_04.jpeg',
-  '/images/cardigan_02.jpeg',
-  'https://drive.google.com/uc?export=view&id=1rioTM5kPI4ZcQw8SefS3mUI-4O01Jz0g',
-  '/images/chemise_02.jpeg',
-  '/images/pantalon_02.jpeg',
-  '/images/chemise_03.jpeg',
-  '/images/chaussures_02.jpeg',
-  '/images/cardigan_01.jpeg',
+  '/img/baba.jpeg',
+  '/img/chemise_01.jpeg',
+  '/img/pantalon_04.jpeg',
+  '/img/cardigan_02.jpeg',
+  '/img/chaussures_01.jpeg',
+  '/img/chemise_02.jpeg',
+  '/img/pantalon_02.jpeg',
+  '/img/chemise_03.jpeg',
+  '/img/chaussures_02.jpeg',
+  '/img/cardigan_01.jpeg',
 ];
 
 export const Lookbook: React.FC = () => {
