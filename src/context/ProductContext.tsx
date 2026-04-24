@@ -25,8 +25,9 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
         const savedProduct = savedMap.get(initial.id);
         if (savedProduct) {
           // Si le produit existe déjà, on vérifie si on doit forcer les nouvelles images locales
-          if (savedProduct.images[0].includes('unsplash')) {
-            return { ...savedProduct, name: initial.name, images: initial.images };
+          // On force si c'est de l'unsplash ou si le chemin contient des espaces (ancienne convention)
+          if (savedProduct.images[0].includes('unsplash') || savedProduct.images[0].includes(' ')) {
+            return { ...savedProduct, images: initial.images };
           }
           return savedProduct;
         }

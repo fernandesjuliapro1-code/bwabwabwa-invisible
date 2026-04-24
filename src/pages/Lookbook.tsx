@@ -4,15 +4,15 @@ import { cn } from '../lib/utils';
 
 const LOOKBOOK_IMAGES = [
   '/images/baba.jpeg',
-  '/images/CHEMISE 01.jpeg',
-  '/images/PANTALON 04.jpeg',
-  '/images/CARDIGAN 02.jpeg',
-  '/images/CHAUSSURES 01.jpeg',
-  '/images/CHEMISE 02.jpeg',
-  '/images/PANTALON 02.jpeg',
-  '/images/CHEMISE 03.jpeg',
-  '/images/CHAUSSURES 02.jpeg',
-  '/images/CARDIGAN 01.jpeg',
+  '/images/chemise_01.jpeg',
+  '/images/pantalon_04.jpeg',
+  '/images/cardigan_02.jpeg',
+  '/images/chaussures_01.jpeg',
+  '/images/chemise_02.jpeg',
+  '/images/pantalon_02.jpeg',
+  '/images/chemise_03.jpeg',
+  '/images/chaussures_02.jpeg',
+  '/images/cardigan_01.jpeg',
 ];
 
 export const Lookbook: React.FC = () => {

@@ -21,7 +21,7 @@ export const PRODUCTS: Product[] = [
     description: 'Coupe droite, coton japonais haute densité. Détail de couture invisible sur l\'épaule.',
     concept: 'La structure pure. Une pièce qui s\'efface pour laisser place à la silhouette.',
     images: [
-      '/images/CHEMISE 01.jpeg'
+      '/images/chemise_01.jpeg'
     ],
     sizes: ['S', 'M', 'L', 'XL']
   },
@@ -33,7 +33,7 @@ export const PRODUCTS: Product[] = [
     description: 'Laine froide, coupe large structurée. Taille élastiquée dissimulée.',
     concept: 'Le mouvement architectural. Le vêtement suit la marche sans contrainte.',
     images: [
-      '/images/PANTALON 04.jpeg'
+      '/images/pantalon_04.jpeg'
     ],
     sizes: ['XS', 'S', 'M', 'L']
   },
@@ -45,7 +45,7 @@ export const PRODUCTS: Product[] = [
     description: 'Maille de cachemire et soie. Bordures franches.',
     concept: 'La protection silencieuse. Une texture qui dialogue avec la peau.',
     images: [
-      '/images/CARDIGAN 02.jpeg'
+      '/images/cardigan_02.jpeg'
     ],
     sizes: ['S', 'M', 'L']
   },
@@ -57,7 +57,7 @@ export const PRODUCTS: Product[] = [
     description: 'Laine mérinos extra-fine. Coupe minimaliste sans boutons.',
     concept: 'La fluidité du geste. Un vêtement qui accompagne le corps.',
     images: [
-      '/images/CARDIGAN 01.jpeg'
+      '/images/cardigan_01.jpeg'
     ],
     sizes: ['S', 'M', 'L']
   },
@@ -69,7 +69,7 @@ export const PRODUCTS: Product[] = [
     description: 'Cuir mat, semelle gomme injectée. Sans lacets apparents.',
     concept: 'L\'ancrage minimal. Une marche sans bruit, une présence discrète.',
     images: [
-      '/images/CHAUSSURES 01.jpeg'
+      '/images/chaussures_01.jpeg'
     ],
     sizes: ['S', 'M', 'L']
   },
@@ -81,7 +81,7 @@ export const PRODUCTS: Product[] = [
     description: 'Cuir lisse, silhouette affinée. Finitions artisanales.',
     concept: 'L\'élégance du vide. Une forme qui s\'adapte au pas.',
     images: [
-      '/images/CHAUSSURES 02.jpeg'
+      '/images/chaussures_02.jpeg'
     ],
     sizes: ['S', 'M', 'L']
   },
@@ -93,7 +93,7 @@ export const PRODUCTS: Product[] = [
     description: 'Col officier, lin noir. Boutonnage sous patte.',
     concept: 'L\'ombre portée. Une pièce qui absorbe la lumière.',
     images: [
-      '/images/CHEMISE 02.jpeg'
+      '/images/chemise_02.jpeg'
     ],
     sizes: ['M', 'L', 'XL']
   },
@@ -105,7 +105,7 @@ export const PRODUCTS: Product[] = [
     description: 'Coton brossé, coupe oversize. Détails de finitions à la main.',
     concept: 'Le volume maîtrisé. Une présence qui s\'affirme par sa forme.',
     images: [
-      '/images/CHEMISE 03.jpeg'
+      '/images/chemise_03.jpeg'
     ],
     sizes: ['S', 'M', 'L']
   },
@@ -117,7 +117,7 @@ export const PRODUCTS: Product[] = [
     description: 'Gabardine de coton, coupe fuselée. Pinces inversées.',
     concept: 'La géométrie du corps. Une ligne tracée dans l\'espace.',
     images: [
-      '/images/PANTALON 02.jpeg'
+      '/images/pantalon_02.jpeg'
     ],
     sizes: ['XS', 'S', 'M', 'L', 'XL']
   }
