@@ -20,13 +20,12 @@ export const ProductProvider: React.FC<{ children: React.ReactNode }> = ({ child
       // On crée une map des produits sauvegardés pour un accès rapide
       const savedMap = new Map(parsed.map(p => [p.id, p]));
       
-      // On fusionne avec INITIAL_PRODUCTS pour s'assurer d'avoir les nouveautés
+      // On force la mise à jour si on détecte une ancienne convention (espaces ou unsplash)
       const merged = INITIAL_PRODUCTS.map(initial => {
         const savedProduct = savedMap.get(initial.id);
         if (savedProduct) {
-          // Si le produit existe déjà, on vérifie si on doit forcer les nouvelles images locales
-          // On force si c'est de l'unsplash ou si le chemin contient des espaces (ancienne convention)
-          if (savedProduct.images[0].includes('unsplash') || savedProduct.images[0].includes(' ')) {
+          const hasOldPath = savedProduct.images.some(img => img.includes(' ') || img.includes('unsplash'));
+          if (hasOldPath) {
             return { ...savedProduct, images: initial.images };
           }
           return savedProduct;
